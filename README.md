@@ -49,11 +49,16 @@ Modify the input and output paths as needed.
 ## Citation
 
 If you use this code or the methodology in your own research, please cite:
->Ben-Shachar, M. S., Lüdecke, D., & Makowski, D. (2020). effectsize: Estimation of effect size indices and standardized parameters. Journal of Open Source Software, 5(56), 2815.
->Kuznetsova, A., Brockhoff, P. B., & Christensen, R. H. (2017). lmerTest package: tests in linear mixed effects models. Journal of statistical software, 82, 1-26.
->Lenth, R. V. (2023). emmeans: Estimated marginal means, aka least-squares means (Version 1.8.8) [R package]. https://CRAN.R-project.org/package=emmeans
->Wickham, H. (2016). ggplot2: Elegant graphics for data analysis. Springer.
->Anonymous, “在Python上用openSMILE提取IS09和eGeMAPS特征集.” CSDN Blog, 22 September 2022, https://blog.csdn.net/weixin_42103947/article/details/126989553 . Accessed 1 July 2024.
+
+1.Ben-Shachar, M. S., Lüdecke, D., & Makowski, D. (2020). effectsize: Estimation of effect size indices and standardized parameters. Journal of Open Source Software, 5(56), 2815.
+
+2.Kuznetsova, A., Brockhoff, P. B., & Christensen, R. H. (2017). lmerTest package: tests in linear mixed effects models. Journal of statistical software, 82, 1-26.
+
+3.Lenth, R. V. (2023). emmeans: Estimated marginal means, aka least-squares means (Version 1.8.8) [R package]. https://CRAN.R-project.org/package=emmeans
+
+4.Wickham, H. (2016). ggplot2: Elegant graphics for data analysis. Springer.
+
+5.Anonymous, “在Python上用openSMILE提取IS09和eGeMAPS特征集.” CSDN Blog, 22 September 2022, https://blog.csdn.net/weixin_42103947/article/details/126989553 . Accessed 1 July 2024.
 
 
 

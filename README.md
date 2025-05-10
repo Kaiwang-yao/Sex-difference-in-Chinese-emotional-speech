@@ -7,18 +7,18 @@ Sex Differences in the Production of Emotional Speech Among Chinese Speakers, su
 
 ## Overview
 
-This project analyzes sex differences in emotional speech production in Mandarin Chinese using:
+This project investigates sex differences in the production of emotional speech in Mandarin Chinese using:
 
 - The Emotional Speech Database (ESD): [https://github.com/HLTSingapore/Emotional-Speech-Data] (https://github.com/HLTSingapore/Emotional-Speech-Data) 
 - The extended GeMAPS feature set  
-- Feature extraction via openSMILE  
-- Statistical analysis using R packages (e.g., `lmerTest`, `emmeans`, `effectsize`)
+- Acoustic feature extraction toolkit openSMILE  
+- R packages such as `lmerTest`, `emmeans`, `effectsize`
 
 ## Repository Contents
 
 - `extract_features.py`: Python script for extracting acoustic features using openSMILE, adapted from:  
   > Anonymous. (2022). “在Python上用openSMILE提取IS09和eGeMAPS特征集” [Python code]. CSDN Blog. https://blog.csdn.net/weixin_42103947/article/details/126989553 (Accessed 2024-07-01)
-- `config/gemaps_eGeMAPSv02.conf`: Configuration file for GeMAPS  
+- `config/gemaps_eGeMAPSv02.conf`: Configuration file for the eGeMAPS feature set  
 - `README.md`: This file
 
 ## Requirements
@@ -36,13 +36,13 @@ This project analyzes sex differences in emotional speech production in Mandarin
 
 1. Download the ESD dataset from: https://github.com/HLTSingapore/Emotional-Speech-Data
 
-2. Download openSMILE from: https://github.com/audeering/opensmile
+2. Download and install openSMILE from: https://github.com/audeering/opensmile
 
 
-3. Extract GeMAPS features from the samples using openSMILE with the code provided in the following link: https://blog.csdn.net/weixin_42103947/article/details/126989553, which is adapted in our extract_feature.py.
+3. Extract GeMAPS features from the audio samples using openSMILE with extract_feature.py, which is adapted from the code provided in the following link: https://blog.csdn.net/weixin_42103947/article/details/126989553.
 Modify the input and output paths as needed.
 
-4. Compile the extracted data into one csv. file.
+4. Combine all extracted features into a single .csv file.
 
 5. Open RStudio to perform PCA and linear mixed model analysis.
 
@@ -54,18 +54,6 @@ If you use this code or the methodology in your own research, please cite:
 -Lenth, R. V. (2023). emmeans: Estimated marginal means, aka least-squares means (Version 1.8.8) [R package]. https://CRAN.R-project.org/package=emmeans
 -Wickham, H. (2016). ggplot2: Elegant graphics for data analysis. Springer.
 -Anonymous, “在Python上用openSMILE提取IS09和eGeMAPS特征集.” CSDN Blog, 22 September 2022, https://blog.csdn.net/weixin_42103947/article/details/126989553 . Accessed 1 July 2024.
-
-## Contact
-
-For questions or collaboration inquiries, please contact:  
-Xiaojing Yao (15113098282@163.com)
-Kaijun Wang (13620301011@163.com)
-Jinan University
-No. 601, Huangpu Avenue West,
-Tianhe District,
-Guangzhou, Guangdong Province,
-510632,
-P. R. China
 
 
 

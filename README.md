@@ -58,13 +58,15 @@ If you use this code or the methodology in your own research, please cite:
 ## Contact
 
 For questions or collaboration inquiries, please contact:  
-Xiaojing Yao, Kaijun Wang  
+Xiaojing Yao (15113098282@163.com)
+Kaijun Wang (13620301011@163.com)
 Jinan University
 No. 601, Huangpu Avenue West,
 Tianhe District,
 Guangzhou, Guangdong Province,
 510632,
 P. R. China
+
 
 
 

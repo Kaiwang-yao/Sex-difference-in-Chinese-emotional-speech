@@ -16,9 +16,9 @@ This project investigates sex differences in the production of emotional speech 
 
 ## Repository Contents
 
-- `extract_features.py`: Python script for extracting acoustic features using openSMILE, adapted from:  
+- `extract_feature.py`: Python script for extracting acoustic features using openSMILE, adapted from:  
   > Anonymous. (2022). “在Python上用openSMILE提取IS09和eGeMAPS特征集” [Python code]. CSDN Blog. https://blog.csdn.net/weixin_42103947/article/details/126989553 (Accessed 2024-07-01)
-- `config/gemaps_eGeMAPSv02.conf`: Configuration file for the eGeMAPS feature set  
+- `opensmile-3.0-win-x64`: acoustic feature extraction toolkit, which also contains the configuration file of eGeMAPS  
 - `README.md`: This file
 
 ## Requirements
@@ -34,16 +34,22 @@ This project investigates sex differences in the production of emotional speech 
 
 ## How to Use
 
-1. Download the ESD dataset from: https://github.com/HLTSingapore/Emotional-Speech-Data
+1. Download the ESD dataset from: https://github.com/HLTSingapore/Emotional-Speech-Data, and the configuration file for the eGeMAPS feature set from our repository  
 
 2. Download and install openSMILE from: https://github.com/audeering/opensmile
 
-3. Extract GeMAPS features from the audio samples using openSMILE with extract_feature.py, which is adapted from the code provided in the following link: https://blog.csdn.net/weixin_42103947/article/details/126989553.
-Modify the input and output paths as needed.
+3. Download and install Python from: https://www.python.org/downloads/windows/
+   
+4. Download and install Pycharm Community Edition from: https://www.jetbrains.com/products/compare/?product=pycharm-ce&product=pycharm 
 
-4. Combine all extracted features into a single .csv file.
+5. Extract GeMAPS features from the audio samples using openSMILE with extract_feature.py, which is adapted from the code provided in the following link: https://blog.csdn.net/weixin_42103947/article/details/126989553.
+Modify the input and output paths as needed depending on the directories of your eGeMAPS configuration file and ESD database.
 
-5. Open RStudio to perform PCA and linear mixed model analysis.
+6. Combine all extracted features into a single .csv file.
+
+7. Download RStudio from: https://posit.co/downloads/
+
+8. Open RStudio to perform PCA and linear mixed model analysis on the data.
 
 ## Citation
 
